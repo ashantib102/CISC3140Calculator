@@ -1,12 +1,21 @@
+body {
+  background-color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
 #calculator {
   width: 60%;
+  height: 130vh;
+  max-height: 50rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
   background-color: #000000;
   border-radius: 8px;
 }
 
 .display #result {
+  color: #ffffff;
+  font-size: 5rem;
   height: 5rem;
   width: 80%;
   display: block;
@@ -16,5 +25,19 @@
 
 .buttons {
   display: grid;
+  margin-top: 4rem;
+  gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  height: 7rem;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  color: #000000;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #554d4d;
 }
