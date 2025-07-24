@@ -1,0 +1,20 @@
+#calculator {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.display #result {
+  height: 5rem;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  background-color: #777474;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
